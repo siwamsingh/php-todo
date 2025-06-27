@@ -1,5 +1,8 @@
 # 📌 Simple PHP ToDo List Web App
 
+![image](https://github.com/user-attachments/assets/a5d76054-b8f8-49d7-bfab-4b40b2928cc0)
+
+
 A basic, fully functional ToDo list website built with **PHP**, **MySQL**, **HTML**, and **CSS**. This project demonstrates core web development concepts like **CRUD operations**, server-side scripting, and database interaction — perfect for beginners or for showcasing your backend skills in a resume.
 
 ---
