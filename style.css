@@ -78,3 +78,7 @@ a:first-child {
 a:first-child:hover {
     color: #1e8449;
 }
+
+.todoBtn{
+    display: flex;
+}

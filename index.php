@@ -3,8 +3,8 @@
 <html>
 <head>
     <title>ToDo List</title>
-    <link rel="stylesheet" href="style.css">
-
+   <link rel="stylesheet" href="style.css?v=<?php echo time(); ?>">
+    
 </head>
 <body>
     <h2>My ToDo List</h2>
@@ -17,8 +17,8 @@
     $result = $conn->query("SELECT * FROM tasks");
     while($row = $result->fetch_assoc()) {
         echo "<li>" . htmlspecialchars($row['task']) . 
-             " <a href='complete.php?id=" . $row['id'] . "'>✔️</a> 
-               <a href='delete.php?id=" . $row['id'] . "'>❌</a></li>";
+             "<div class='todoBtn'> <a href='complete.php?id=" . $row['id'] . "'>✔️</a> 
+               <a href='delete.php?id=" . $row['id'] . "'>❌</a></div></li>";
     }
     ?>
     </ul>
